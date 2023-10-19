@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccoliteAssessment", "AccoliteAssessment.csproj", "{E6BB1784-9655-4E2D-B14C-9C26C7A792E6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{73DD4C11-6E8C-485C-B7CD-C315741D3630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccoliteAssessment.Test", "..\AccoliteAssessment.Test\AccoliteAssessment.Test.csproj", "{EDCA977F-B57C-4F8B-A4BE-49AE04586F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BB1784-9655-4E2D-B14C-9C26C7A792E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BB1784-9655-4E2D-B14C-9C26C7A792E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BB1784-9655-4E2D-B14C-9C26C7A792E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BB1784-9655-4E2D-B14C-9C26C7A792E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DD4C11-6E8C-485C-B7CD-C315741D3630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DD4C11-6E8C-485C-B7CD-C315741D3630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DD4C11-6E8C-485C-B7CD-C315741D3630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DD4C11-6E8C-485C-B7CD-C315741D3630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCA977F-B57C-4F8B-A4BE-49AE04586F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCA977F-B57C-4F8B-A4BE-49AE04586F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCA977F-B57C-4F8B-A4BE-49AE04586F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCA977F-B57C-4F8B-A4BE-49AE04586F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FF52E9E-2AB7-4275-8B60-05E22E87D21F}
+	EndGlobalSection
+EndGlobal
